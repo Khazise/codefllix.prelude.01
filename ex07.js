@@ -15,16 +15,16 @@ function kebabCase(str = '')
     }
     
     str = str.toString();
-    str = str.replace(/,/g,'-')
+    str = str.replace(/,/g,'_')
     str = str.toLowerCase()
     return str
 }
 
 
-console.log(kebabCase('love one code'));
+console.log(kebabCase('gold d roger'));
 
-console.log(kebabCase('LoveOneCode'));
+console.log(kebabCase('GoldDRoger'));
 
-console.log(kebabCase('-Love-One-Code-'));
+console.log(kebabCase('-Gold-D-Roger-'));
 
 
