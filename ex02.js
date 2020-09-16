@@ -5,9 +5,9 @@ function lowerCase(str = '')
     {
         const code = str.charCodeAt(i);
 
-        if(code >= 65 && code <= 90)
+        if(code >= 97 && code <= 122)
         {
-            result += (String.fromCharCode(code+32));
+            result += (String.fromCharCode(code-32));
         }
         else
         {
