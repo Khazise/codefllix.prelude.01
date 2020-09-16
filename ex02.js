@@ -1,4 +1,4 @@
-function lowerCase(str = '')
+function upperCase(str = '')
 {
     let result = '';
     for(let i = 0; i < str.length; i++)
@@ -17,5 +17,5 @@ function lowerCase(str = '')
     return result
 }
 
-console.log(lowerCase('CaSiS'));
+console.log(upperCase('CaSiS'));
 
