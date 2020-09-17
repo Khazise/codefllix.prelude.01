@@ -7,6 +7,7 @@ function kebabCase(str = '')
 
     for(let i =0; i< str.length;i++)
     {
+        
         if(str[i].match(/[A-Z][a-z]+/g) != null)
         {
             str[i] = str[i].match(/[A-Z][a-z]+/g)
