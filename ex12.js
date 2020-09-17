@@ -1,9 +1,15 @@
-function substr(str = '',len=1)
+function substr(str = '',start,len=str.length)
 {
-    var taille = str.length
-    return str.substring(taille - len, taille);
+
+    var resultat = '';
+    for(let i=0;i < len ;i++)
+    {   
+        if((start + i) == str.length) {break;}
+        resultat += str[i+start]     
+    }
+
+    return resultat
 }
-console.log(substr('chopper'));
-console.log(substr('chopper',2));
-console.log(substr('tony',5));
+console.log(substr('tony tony chopper',10));
+console.log(substr('ch0pper',2,2));
 

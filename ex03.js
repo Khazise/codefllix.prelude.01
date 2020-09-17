@@ -5,5 +5,5 @@ function length(str = '')
     return i
 }
 
-console.log(length('CaSiS'));
+console.log(length('ch0pper'));
 
