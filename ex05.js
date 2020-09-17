@@ -6,6 +6,7 @@ function decapitalize(str = '')
     return str
 }
 
-console.log(decapitalize('Casis'));
+console.log(decapitalize('Wooman'));
+console.log(decapitalize('El Drago'));
 
 

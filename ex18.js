@@ -1,6 +1,6 @@
 function lastIndexOf(str = '',search,fromIndexopt = str.length)
 {
-    for(let i=str.length; i > 0; i--)
+    for(let i=str.length-1; i >= 0; i--)
     {
         if(str[i] == search )
         {
